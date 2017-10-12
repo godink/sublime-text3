@@ -4,7 +4,7 @@
 		"/C/Users/hong.chen/Desktop/vue.js"
 	],
 	"last_version": 3143,
-	"last_window_id": 28,
+	"last_window_id": 29,
 	"log_indexing": false,
 	"settings":
 	{
@@ -92,9 +92,9 @@
 			},
 			"file_history":
 			[
+				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
-				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 				"/C/Users/hong.chen/Desktop/vue.js/testIf.html",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
@@ -115,7 +115,7 @@
 			],
 			"find":
 			{
-				"height": 25.0
+				"height": 28.0
 			},
 			"find_in_files":
 			{
@@ -145,7 +145,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 25.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -163,7 +163,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 46.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -222,26 +222,6 @@
 					{
 						"buffer_size": 0,
 						"line_ending": "Windows"
-					}
-				},
-				{
-					"contents": "Package Control Messages\n========================\n\nMaterial Theme\n--------------\n\n  ## Material Theme for Sublime Text 3\n  \n  For more information on the Material Theme: https://github.com/equinusocio/material-theme\n  \n  **********************************************************************************************\n  \n  # Activate the theme\n  \n  You can active this theme from:\n  - Command palette `Tools > Command Palette` (or <kbd>cmd/ctrl</kbd>+ <kbd>↑</kbd>+<kbd>p</\n  kbd>) by typing `Material Theme: Activate theme`. \n  - Context menu (Right click on the editor) and choose `Material Theme > Activate Material Theme`\n  - `Preferences > Packages Settings` and choose `Material Theme > Activate Material Theme`\n  \n  You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):\n  \n  ```json\n  \"color_scheme\": \"Packages/Material Theme/schemes/Material-Theme.tmTheme\",\n  \"theme\": \"Material-Theme.sublime-theme\",\n  ```\n  \n  ## File icons\n  To enable file type icons you have to install an additional package, search for `zz File Icons` on Package Control, after install restart Sublime Text.\n  \n  **********************************************************************************************\n  \n  ### Other available theme options:\n  \n  ```\n  \"material_theme_accent_acid-lime\"         : true , // Set acid-lime accent color\n  \"material_theme_accent_blue\"              : true , // Set blue accent color\n  \"material_theme_accent_brba\"              : true , // Set Breaking Bad green accent color\n  \"material_theme_accent_bright-teal\"       : true , // Set bright-teal accent color\n  \"material_theme_accent_cyan\"              : true , // Set cyan accent color\n  \"material_theme_accent_graphite\"          : true , // Set graphite accent color\n  \"material_theme_accent_indigo\"            : true , // Set indigo accent color\n  \"material_theme_accent_lime\"              : true , // Set lime green accent color\n  \"material_theme_accent_orange\"            : true , // Set orange accent color\n  \"material_theme_accent_pink\"              : true , // Set pink accent color\n  \"material_theme_accent_purple\"            : true , // Set purple accent color\n  \"material_theme_accent_red\"               : true , // Set pale red accent color\n  \"material_theme_accent_sky\"               : true , // Set bright-cyan accent color\n  \"material_theme_accent_tomato\"            : true , // Set tomato red accent color\n  \"material_theme_accent_yellow\"            : true , // Set yellow accent color\n  \"material_theme_bold_tab\"                 : true , // Make the tab labels bolder\n  \"material_theme_compact_panel\"            : true , // Set minimal padding for the search panel\n  \"material_theme_compact_sidebar\"          : true , // Set compact side bar\n  \"material_theme_contrast_mode\"            : true , // Enable sidebar and panels contrast mode\n  \"material_theme_disable_fileicons\"        : true , // Hide sidebar file type icons\n  \"material_theme_arrow_folders\"            : true , // Replace folder icons with arrows\n  \"material_theme_big_fileicons\"            : true , // Show bigger file type icons\n  \"material_theme_disable_folder_animation\" : true , // Disable folder animation\n  \"material_theme_disable_tree_indicator\"   : true , // Disable sidebar file indicator\n  \"material_theme_bullet_tree_indicator\"    : true , // Set a bullet as active tree indicator\n  \"material_theme_panel_separator\"          : true , // Show bottom panel separator\n  \"material_theme_small_statusbar\"          : true , // Set small status bar\n  \"material_theme_small_tab\"                : true , // Set small tabs\n  \"material_theme_bright_scrollbars\"        : true , // Bright scrollbars puck color\n  \"material_theme_accent_scrollbars\"        : true , // Enable accent color for scrollbars\n  \"material_theme_tabs_autowidth\"           : true , // Enable autowidth for tabs\n  \"material_theme_tabs_separator\"           : true , // Show tabs separator, this disables tab hover \n  \n  // If you use Material Theme - Appbar addon you can use additional settings:\n  \"material_theme_tree_headings\"            : true , // Show sidebar headings\n  ```\n  \n  **********************************************************************************************\n  \n  ### Recommended UI and font settings for a better experience:\n  \n  ```\n  {\n    \"overlay_scroll_bars\": \"enabled\",\n    \"line_padding_top\": 3,\n    \"line_padding_bottom\": 3,\n    \"always_show_minimap_viewport\": true,\n    \"bold_folder_labels\": true,\n    \"indent_guide_options\": [ \"draw_normal\", \"draw_active\" ],   // Highlight active indent\n    \"font_options\": [ \"gray_antialias\" ],                       // For retina Mac\n  }\n  ```\n\n\nA File Icon\n-----------\n\n  ```\n  \n      $$$$$$\\        $$$$$$$$\\ $$\\ $$\\                 $$$$$$\\                              \n     $$  __$$\\       $$  _____|\\__|$$ |                \\_$$  _|                             \n     $$ /  $$ |      $$ |      $$\\ $$ | $$$$$$\\          $$ |  $$$$$$$\\  $$$$$$\\  $$$$$$$\\  \n     $$$$$$$$ |      $$$$$\\    $$ |$$ |$$  __$$\\         $$ | $$  _____|$$  __$$\\ $$  __$$\\ \n     $$  __$$ |      $$  __|   $$ |$$ |$$$$$$$$ |        $$ | $$ /      $$ /  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |$$   ____|        $$ | $$ |      $$ |  $$ |$$ |  $$ |\n     $$ |  $$ |      $$ |      $$ |$$ |\\$$$$$$$\\       $$$$$$\\\\$$$$$$$\\ \\$$$$$$  |$$ |  $$ |\n     \\__|  \\__|      \\__|      \\__|\\__| \\_______|      \\______|\\_______| \\______/ \\__|  \\__|\n  \n  ```\n  \n  This package adds file specific icons to Sublime Text for improved visual grepping. \n  It's heavily inspired by Atom File Icons.\n  \n  ***\n  \n  1. Please restart Sublime Text for the applied icons to take effect.\n  2. The icons for packages provided by the community require to be installed. \n     E.g. if you want to see SCSS icon you should install one of the SCSS syntax packages.\n  \n  ***\n  \n  I've put a lot of time and effort into making `A File Icon` awesome. If you love \n  it, you can [buy me a coffee](https://www.patreon.com/ihodev) ☕.\n",
-					"settings":
-					{
-						"buffer_size": 6038,
-						"line_ending": "Windows",
-						"name": "Package Control Messages",
-						"read_only": true,
-						"scratch": true
-					}
-				},
-				{
-					"file": "/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 571,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
 					}
 				}
 			],
@@ -321,9 +301,9 @@
 			},
 			"file_history":
 			[
+				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
-				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 				"/C/Users/hong.chen/Desktop/vue.js/testIf.html",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
 				"/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
@@ -344,7 +324,7 @@
 			],
 			"find":
 			{
-				"height": 25.0
+				"height": 28.0
 			},
 			"find_in_files":
 			{
@@ -375,7 +355,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
@@ -414,41 +394,21 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
 										"bh_c_define_close",
 										"bh_c_define_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
 										"bh_regex",
 										"bh_regex_center",
 										"bh_regex_open",
@@ -459,265 +419,58 @@
 										"bh_round_open",
 										"bh_round_close",
 										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
 										"bh_unmatched_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content"
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content"
 									],
 									"is_init_dirty_state": true,
 									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6038,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										123,
-										123
-									]
-								],
-								"settings":
-								{
-									"auto_indent": false,
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content"
-									],
-									"is_init_dirty_state": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_width": 2,
-									"word_wrap": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 2,
-							"file": "/C/Users/hong.chen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 571,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										279,
-										279
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												569,
-												570
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/curly_bracket.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												0,
-												1
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content"
-									],
-									"edit_settings_other_view_id": 30,
-									"edit_settings_view": "user",
-									"is_init_dirty_state": false,
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 3.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
 							"type": "text"
 						}
 					]
+				},
+				{
+					"sheets":
+					[
+					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 25.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -762,11 +515,11 @@
 				"height": 102.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,1,-1,-1,-1,-1,759,312,221,1260",
+			"position": "0,0,1,-32000,-32000,-1,-1,759,312,221,1260",
 			"project": "",
 			"replace":
 			{
-				"height": 46.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -796,7 +549,7 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 1,
+			"selected_group": 0,
 			"settings":
 			{
 			},
