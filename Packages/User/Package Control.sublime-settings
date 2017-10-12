@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"3024 Color Scheme",
+		"A File Icon",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ConvertToUTF8",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"JsFormat",
+		"LESS",
+		"Less2Css",
+		"LiveReload",
+		"Material Theme",
+		"Package Control",
+		"SideBarEnhancements",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"View In Browser"
+	]
+}
